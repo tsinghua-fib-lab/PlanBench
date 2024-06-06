@@ -1,0 +1,19 @@
+# model
+model_name_or_path: ZhipuAI/chatglm3-6b-base
+adapter_name_or_path: saves/ChatGLM3-6B-Base/lora/train_2024-05-12-11-49-05
+
+# method
+finetuning_type: lora
+
+# dataset
+task: ceval
+split: test
+template: fewshot
+lang: zh
+n_shot: 0
+
+# output
+save_dir: saves/urban/planglm3_base_epoch100
+
+# eval
+batch_size: 4

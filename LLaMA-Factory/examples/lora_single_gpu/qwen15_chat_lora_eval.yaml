@@ -1,0 +1,18 @@
+# model
+model_name_or_path: qwen/Qwen1.5-7B-Chat
+
+# method
+finetuning_type: lora
+
+# dataset
+task: ceval
+split: test
+template: fewshot
+lang: zh
+n_shot: 0
+
+# output
+save_dir: saves/urban/qwen15_chat
+
+# eval
+batch_size: 4

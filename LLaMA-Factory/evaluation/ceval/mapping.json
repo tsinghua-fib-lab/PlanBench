@@ -1,0 +1,14 @@
+{
+  "urban_and_rural_planner_basic": {
+    "name": "注册城乡规划师原理",
+    "category": "Basic"
+  },
+  "urban_and_rural_planner_knowledge": {
+    "name": "注册城乡规划师相关知识",
+    "category": "Knowledge"
+  },
+  "urban_and_rural_planner_regulation": {
+    "name": "注册城乡规划师管理与法规",
+    "category": "Regulation"
+  }
+}

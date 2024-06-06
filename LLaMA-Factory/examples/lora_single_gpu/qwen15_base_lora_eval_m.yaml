@@ -1,0 +1,18 @@
+# model
+model_name_or_path: qwen/Qwen1.5-7B
+
+# method
+finetuning_type: lora
+
+# dataset
+task: cevalm
+split: test
+template: fewshot
+lang: zh-m
+n_shot: 0
+
+# output
+save_dir: saves/urban/qwen15_base_m
+
+# eval
+batch_size: 4
