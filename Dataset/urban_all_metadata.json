@@ -1,0 +1,52 @@
+{
+  "@context": {
+  "@language": "en",
+  "@vocab": "https://schema.org/"
+  },
+  "@type": "sc:Dataset",
+  "name": "PlanText",
+  "description": "The largest-ever SFT dataset tailored for urban planning. ",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/tsinghua-fib-lab/PlanBench/blob/master/Dataset/urban_all_data.json",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "urban_all_data.json",
+      "name": "urban_all_data.json",
+      "contentUrl": "https://github.com/tsinghua-fib-lab/PlanBench/blob/master/Dataset/urban_all_data.json",
+      "encodingFormat": "text/json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "urban_all_data.json",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "instruction",
+          "description": "Assessment questions related to urban planning capacity",
+          "dataType": "sc:Text",
+          "references": {
+            "fileObject": { "@id": "urban_all_data.json" },
+            "extract": {
+              "column": "instruction"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "output",
+          "description": "Answer to the urban planning capacity assessment question.",
+          "dataType": "sc:Text",
+          "references": {
+            "fileObject": { "@id": "urban_all_data.json" },
+            "extract": {
+              "column": "output"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
