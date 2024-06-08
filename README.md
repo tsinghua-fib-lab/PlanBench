@@ -694,7 +694,7 @@ Select the four models with the best performance in Experiment 1, fine tune them
 
 #### Basic model test
 
-Select `ChatGLM3-6B-Base,ChatGLM3-6B-Chat,Baichuan2-7B-Base,Baichuan2-7B-Chat,LLaMA3-8B,LLaMA3-8B-chat,Qwen1.5-7B,Qwen1.5-7B-chat,Yi-6B,Yi-6B-chat`,Test directly without fine-tuning试
+Select `ChatGLM3-6B-Base,ChatGLM3-6B-Chat,Baichuan2-7B-Base,Baichuan2-7B-Chat,LLaMA3-8B,LLaMA3-8B-chat,Qwen1.5-7B,Qwen1.5-7B-chat,Yi-6B,Yi-6B-chat`,Test directly without fine-tuning
 
 |                   | single-Average | single-Basic | single-Knowledge | single-Regulation | mul-Average | mul--Basic | mul--Knowledge | mul--Regulation |
 | ----------------- | -------------- | ------------ | ---------------- | ----------------- | ----------- | ---------- | -------------- | --------------- |
